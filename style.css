@@ -72,8 +72,9 @@ header img {
 
 
 .text{
-    margin: 200px auto;
+    margin: 200px auto 0;
     background-color: white ;
+    /* border: 1px solid red; */
 }
 
 .text h1{
@@ -85,4 +86,73 @@ header img {
     text-align: center;
     display: block;
     margin:  auto;
+}
+
+/* main in */
+
+
+.main{
+    margin-top: 20px;
+    width: 970px;
+    margin: auto; 
+    /* border: 1px solid red;   */
+}
+.main_img{
+    width: 970px;
+    margin: auto;
+    display: flex;
+}
+.main h2{
+    margin-left: 400px;
+    margin-top: 50px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main_img_text{
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 320px;
+    height: 455px;
+    margin: 10px;
+}
+.main_img_text img{
+    width: 180px;
+    height: 158px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.main_img_text p{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.main_img_text p b{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 50px
+}
+.main_img_text .p{
+    color: var(--dark-blue, #114E86);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main_img_text:hover{
+    background: var(--dark-blue, #114E86);
+    color: white;
+    transition: .5s;
+    scale: 1.05;
+}
+
+.main_img_text:hover p{
+    color: white;
+}
+.main_img_text:hover p b{
+    color: white;
 }
