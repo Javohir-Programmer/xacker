@@ -1,5 +1,69 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: aqua;
+    
+}
+body {
+    background: url(75ae05112787439\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    list-style:
+        none;
+}
+ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 10px;
+}
+ul select {
+    width: 50px;
+    height: 25px;
+    margin-top: 30px;
+    background: none;
+    color: white;
+}
+header img {
+    width: 70px;
+    height: 65px;
+    margin: 10px;
+}
+.info h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    margin-left: 135px;
+    margin-top: 200px;
+}
+.info button {
+    margin-left: 135px;
+    width: 250px;
+    height: 62px;
+    border-radius: 8px;
+    background: var(--dark-blue, #114E86);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 30px;
+    border: none;
 }
