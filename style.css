@@ -156,3 +156,77 @@ header img {
 .main_img_text:hover p b{
     color: white;
 }
+
+/* asilbek footer */
+
+footer{
+    width: 1349px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    margin-top: 90px;
+}
+.footer_text{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+footer .footer_text h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700; 
+}
+.footer_text p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer_text p img{
+    width: 21px;
+    height: 18px;
+}
+.footer_text_2{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.footer_text_2 h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer_text_2 p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_text_3{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.footer_text_3 h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer_text_3 input{
+    display: block;
+    width: 270px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(196, 196, 196, 0.25);
+}
+.footer_text_3 button{
+    width: 270px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
